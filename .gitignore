@@ -51,6 +51,9 @@ CLAUDE.local.md
 # Quarto rendering artifacts
 /.quarto/
 
+# Reference papers (large binary PDFs, keep local)
+papers/
+
 # Output artifacts — uncomment lines below based on your preference
 # *.rds
 # output/**/*.rds

@@ -34,9 +34,10 @@ paths:
 ## 4. Visual Identity
 
 ```r
-# --- Your institutional palette ---
-primary_blue  <- "#012169"
-primary_gold  <- "#f2a900"
+# --- UCLA institutional palette ---
+ucla_blue     <- "#2774AE"
+ucla_gold     <- "#FFD100"
+accent_dark   <- "#003B5C"
 accent_gray   <- "#525252"
 positive_green <- "#15803d"
 negative_red  <- "#b91c1c"
@@ -47,7 +48,7 @@ negative_red  <- "#b91c1c"
 theme_custom <- function(base_size = 14) {
   theme_minimal(base_size = base_size) +
     theme(
-      plot.title = element_text(face = "bold", color = primary_blue),
+      plot.title = element_text(face = "bold", color = ucla_blue),
       legend.position = "bottom"
     )
 }
@@ -73,6 +74,9 @@ saveRDS(result, file.path(out_dir, "descriptive_name.rds"))
 |---------|--------|------------|
 | Missing `bg = "transparent"` | White boxes on slides | Always include in ggsave() |
 | Hardcoded paths | Breaks on other machines | Use relative paths |
+| Eigenvalue ordering in affine models | Wrong impulse responses, explosive dynamics | Verify eigenvalues inside unit circle; sort by modulus |
+| GMM weighting matrix sensitivity | Estimates change with W choice | Report both identity and optimal W |
+| Yield convention (annualized vs. per-period) | Off by factor of 12 or 4 | State convention explicitly in comments and output |
 
 ## 7. Line Length & Mathematical Exceptions
 

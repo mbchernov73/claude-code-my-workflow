@@ -48,26 +48,21 @@ Repeat
 
 ---
 
-## Non-Negotiables (Customize These)
+## Non-Negotiables
 
-<!-- Replace with YOUR project's locked-in preferences -->
-
-- [YOUR PATH CONVENTION] (e.g., `here::here()` for R, relative paths for LaTeX)
-- [YOUR SEED CONVENTION] (e.g., `set.seed()` once at top for stochastic code)
-- [YOUR FIGURE STANDARDS] (e.g., white bg, 300 DPI, custom theme)
-- [YOUR COLOR PALETTE] (e.g., institutional colors)
-- [YOUR TOLERANCE THRESHOLDS] (e.g., 1e-6 for point estimates)
+- **Path convention:** Relative paths from repository root (e.g., `papers/BCZZ_2022.pdf`, `scripts/analysis.R`)
+- **Figure standards:** Publication-ready, white background, 300 DPI, explicit dimensions
+- **Color palette:** UCLA Blue (#2774AE), UCLA Gold (#FFD100), Accent Dark Blue (#003B5C)
+- **Tolerance thresholds:** 1e-6 for point estimates, 1e-4 for standard errors, +/- 0.02 for coverage rates
 
 ---
 
 ## Preferences
 
-<!-- Fill in as you discover your working style -->
-
-**Visual:** [How you want figures/plots handled]
-**Reporting:** [Concise bullets? Detailed prose? Details on request?]
+**Visual:** Publication-ready, polished -- no drafty outputs. Figures must be journal-quality.
+**Reporting:** Structured and precise -- use bullet points with evidence. No vague summaries.
 **Session logs:** Always (post-plan, incremental, end-of-session)
-**Replication:** [How strict? Flag near-misses?]
+**Replication:** Strict -- flag any deviation from published results. Document every discrepancy.
 
 ---
 
@@ -76,7 +71,7 @@ Repeat
 For experimental work, use the **Fast-Track** workflow:
 - Work in `explorations/` folder
 - 60/100 quality threshold (vs. 80/100 for production)
-- No plan needed — just a research value check (2 min)
+- No plan needed -- just a research value check (2 min)
 - See `.claude/rules/exploration-fast-track.md`
 
 ---

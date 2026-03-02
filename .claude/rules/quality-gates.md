@@ -62,6 +62,6 @@ Save to `quality_reports/merges/YYYY-MM-DD_[branch-name].md`.
 
 | Quantity | Tolerance | Rationale |
 |----------|-----------|-----------|
-| Point estimates | [e.g., 1e-6] | [Numerical precision] |
-| Standard errors | [e.g., 1e-4] | [MC variability] |
-| Coverage rates | [e.g., +/- 0.01] | [MC with B reps] |
+| Point estimates | 1e-6 | Numerical precision for affine model parameters |
+| Standard errors | 1e-4 | GMM asymptotic SE variability |
+| Coverage rates | +/- 0.02 | Bootstrap/MC with typical macro-finance sample sizes |

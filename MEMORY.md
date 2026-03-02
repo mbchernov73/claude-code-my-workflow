@@ -70,3 +70,15 @@ When a mistake is corrected, append a `[LEARN:category]` entry below.
 [LEARN:meta] Dogfooding principles must be enforced: plan-first, spec-then-plan, quality gates, session logs → we follow our own guide.
 
 [LEARN:meta] Template development work (building infrastructure, docs) doesn't create session logs in quality_reports/ → those are for user work (slides, analysis), not meta-work. Keeps template clean for users who fork.
+
+## Project: MPidentification
+
+**Context:** Response to Cieslak & Khorrami (2026) critique of Backus, Chernov, Zin & Zviadadze (2022, RFS).
+
+[LEARN:project] BCZZ (2022) uses long-run neutrality restrictions in an affine term structure model to separate Taylor rule (systematic) from discretion (unsystematic) monetary policy. Key params: τ_π, τ_g (Taylor rule), s_t (discretion), λ_t (risk prices).
+
+[LEARN:project] CK (2026) argues LRN is violated empirically → BCZZ's recovered policy shocks are polluted by risk premium effects. Their critique emphasizes unconventional monetary policy (UMP) periods where transmission mechanism differs.
+
+[LEARN:project] Key battleground: BCZZ's "knife-edge" iid structure for discretion s_t is a specific parametric restriction, while CK's "generic" impossibility argument applies to unrestricted LRN. The scope mismatch is a potential counter-argument.
+
+[LEARN:project] Project focus: written response with rigorous counter-arguments. No slides needed initially. UCLA Anderson institutional context. Colors: UCLA Blue (#2774AE), UCLA Gold (#FFD100).
